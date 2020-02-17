@@ -21,7 +21,7 @@ function App() {
           <Form addCard={addCard} />
         </div>
         <div className="col">
-          <List />
+          <List added={added}/>
         </div>
       </div>
     </div>
